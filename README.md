@@ -8,17 +8,14 @@ Este proyecto es una página web sobre películas de WordPress creada como parte
 Instale docker en su máquina local
 
  **Clonar el repositorio**:
+ Clonar en su máquina local el código y correr los siguientes comando. No olvide consultar las credenciales para acceder a mysql.
+
    ```bash
-   git clone https://github.com/Valentinaadle/TP2-Backend.git
+   docker-compose up -d
+   docker exec -it tp2-si3-db-1 mysql -u usuario -p
 
-**Ejecutar el siguiente comando**:
 
-Una vez clonado el código, ejecutelo con el siguiente comando: docker-compose up -d
-
-** Acceder a la base de datos**:
-docker exec -it tp2-si3-db-1 mysql -u usuario -p
-(Consultar credenciales)
-
+    
 
 
 
